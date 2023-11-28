@@ -20,8 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{""}
-            <span className="text-accent">Digital Reality</span>
+            Transforme suas ideias <br /> Em{""}
+            <span className="text-accent"> Realidade Digital</span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
@@ -30,9 +30,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Aliqua ipsum labore aliqua dolore aute aliqua sit nulla incididunt.
-            Laborum eiusmod ut eiusmod dolor eiusmod nostrud minim enim id sit.
-            Minim elit aute sunt ex do consequat mollit.
+            Somos uma empresa apaixonada por design e tecnologia, e nosso
+            objetivo é ajudar empresas e marcas a terem uma presença online de
+            sucesso. Com mais de 10 anos de experiência no mercado, nossa
+            empresa oferece soluções personalizadas e criativas para cada
+            cliente, desde a concepção e design do site até a implementação e
+            manutenção.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
