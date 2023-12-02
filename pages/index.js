@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
@@ -32,10 +30,9 @@ const Home = () => {
           >
             Somos uma empresa apaixonada por design e tecnologia, e nosso
             objetivo é ajudar empresas e marcas a terem uma presença online de
-            sucesso. Com mais de 10 anos de experiência no mercado, nossa
-            empresa oferece soluções personalizadas e criativas para cada
-            cliente, desde a concepção e design do site até a implementação e
-            manutenção.
+            sucesso. Com mais de 6 anos de experiência no mercado, nossa empresa
+            oferece soluções personalizadas e criativas para cada cliente, desde
+            a concepção e design do site até a implementação e manutenção.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />

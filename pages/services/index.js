@@ -19,7 +19,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My services <span className="text-accent">.</span>
+              Nossos serviços <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -28,8 +28,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              LoremSunt est cillum dolore veniam minim cupidatat eiusmod.
-              LoremSunt est cillum dolore veniam minim cupidatat eiusmod.
+              Oferecemos os seguintes serviços de criação de sites:
             </motion.p>
           </div>
           <motion.div

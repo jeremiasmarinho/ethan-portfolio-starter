@@ -18,28 +18,27 @@ import {
 export const serviceData = [
   {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Sites institucionais",
+    description:
+      "Apresentam a sua empresa, sua missão, visão, valores, história, depoimentos, etc.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Sites responsivos",
+    description:
+      "Adaptam a qualquer tamanho de tela, seja de um computador, tablet ou smartphone.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Sites e-commerce",
+    description:
+      "Permitem a venda de produtos ou serviços pela internet e com segurança.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Personalizados",
+    description:
+      "Atendem às suas demandas específicas, seja para um evento, uma campanha, etc.",
   },
 ];
 

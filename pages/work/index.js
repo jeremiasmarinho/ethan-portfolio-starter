@@ -19,7 +19,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My work <span className="text-accent">.</span>
+              Nossos Trabalhos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -28,8 +28,9 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              LoremSunt est cillum dolore veniam minim cupidatat eiusmod.
-              LoremSunt est cillum dolore veniam minim cupidatat eiusmod.
+              Nós entregamos sites de alta qualidade, com design moderno,
+              funcionalidade, velocidade e otimização para os mecanismos de
+              busca.
             </motion.p>
           </div>
           <motion.div

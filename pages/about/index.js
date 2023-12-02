@@ -20,7 +20,7 @@ import {
 //  data
 export const aboutData = [
   {
-    title: "skills",
+    title: "Habilidades",
     info: [
       {
         title: "Web Development",
@@ -45,20 +45,7 @@ export const aboutData = [
     ],
   },
   {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
-    title: "experience",
+    title: "Experiência",
     info: [
       {
         title: "UX/UI Designer - XYZ Company",
@@ -75,7 +62,7 @@ export const aboutData = [
     ],
   },
   {
-    title: "credentials",
+    title: "Formações",
     info: [
       {
         title: "Web Development - ABC University, LA, CA",
@@ -124,8 +111,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Um grande <span className="text-accent">negócio</span> merece um
+            site surpreendente.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -134,9 +121,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, I have
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer use.
+            Somos uma empresa de criação de sites que oferece soluções
+            personalizadas e de qualidade para os nossos clientes. Temos uma
+            equipe de profissionais qualificados e experientes que trabalham com
+            as melhores ferramentas e tecnologias do mercado.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -148,35 +136,27 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} /> +
+                  <CountUp start={0} end={6} duration={8} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience
+                  Anos de experiência
                 </div>
               </div>
 
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={21} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients
+                  Clientes satisfeitos
                 </div>
               </div>
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} /> +
+                  <CountUp start={0} end={18} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects
-                </div>
-              </div>
-              <div className="relative flex-1">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} /> +
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards
+                  Projetos finalizados
                 </div>
               </div>
             </div>
