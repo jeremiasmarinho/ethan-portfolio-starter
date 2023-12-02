@@ -119,7 +119,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mt-3 xl:mt0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] mx-auto xl:mx-0 mt-6 xl:mt0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm xl:text-lg"
           >
             Somos uma empresa que oferece soluções personalizadas e de qualidade
             para os nossos clientes. Temos uma equipe de profissionais

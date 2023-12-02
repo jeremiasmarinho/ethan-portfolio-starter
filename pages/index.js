@@ -26,7 +26,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-0 xl:mb-16"
+            className="max-w-sm xl:max-w-xl text-sm xl:text-lg mx-auto xl:mx-0 mb-8 mt-4 xl:mt-0 xl:mb-16"
           >
             Somos uma empresa apaixonada por design e tecnologia, e nosso
             objetivo é ajudar empresas e marcas a terem uma presença online de
