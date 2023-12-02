@@ -87,6 +87,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
 import CountUp from "react-countup";
+import Image from "next/image";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -98,9 +99,15 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
+        className="hidden xl:flex fixed bottom-0 -left-[400px] xl:mr-12"
       >
-        <Avatar />
+        <Image
+          src={"/avatar.png"}
+          width={737}
+          height={678}
+          alt=""
+          className="translate-z-0 w-full h-full opacity-50"
+        />
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
@@ -109,9 +116,9 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-2xl xl:h2"
+            className="text-2xl xl:h2 "
           >
-            Um grande <span className="text-accent">negócio</span> merece um
+            Um grande <span className="text-accent ">negócio</span> merece um
             site surpreendente.
           </motion.h2>
           <motion.p
