@@ -16,7 +16,7 @@ const Contact = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-2xl xl:h2  xl:mb-0 xl:mt-4 text-center mb-12"
+            className="text-2xl xl:h2  xl:mb-20 xl:mt-4 text-center mb-4 mt-3"
           >
             Fale <span className="text-accent">conosco.</span>
           </motion.h2>
