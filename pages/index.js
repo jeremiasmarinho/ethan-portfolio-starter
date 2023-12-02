@@ -16,7 +16,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="text-2xl xl:h1 mt-8 xl:mt-0"
           >
             Transforme suas ideias <br /> Em{""}
             <span className="text-accent"> Realidade Digital</span>
@@ -26,7 +26,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-0 xl:mb-16"
           >
             Somos uma empresa apaixonada por design e tecnologia, e nosso
             objetivo é ajudar empresas e marcas a terem uma presença online de

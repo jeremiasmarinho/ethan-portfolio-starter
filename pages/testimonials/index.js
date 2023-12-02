@@ -12,7 +12,7 @@ const Testimonials = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 mb-8 xl:mb-0"
+          className="text-2xl xl:h2  xl:mt-4 mb-8 xl:mb-0"
         >
           O que nossos clientes <span className="text-accent">dizem.</span>
         </motion.h2>
@@ -21,6 +21,7 @@ const Testimonials = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
+          className="text-sm xl:text-lg"
         >
           <TestimonialSlider />
         </motion.div>

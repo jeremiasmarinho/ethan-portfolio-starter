@@ -17,7 +17,7 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-8"
+              className="text-2xl xl:h2  mb-6 xl:mb-0 xl:mt-4"
             >
               Nossos serviços <span className="text-accent">.</span>
             </motion.h2>
@@ -36,7 +36,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%]"
+            className="w-full text-sm xl:text-1xl xl:max-w-[65%]"
           >
             <ServiceSlider />
           </motion.div>

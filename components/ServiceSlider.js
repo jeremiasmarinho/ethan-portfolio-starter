@@ -26,7 +26,7 @@ export const serviceData = [
     icon: <RxPencil2 />,
     title: "Sites responsivos",
     description:
-      "Adaptam a qualquer tamanho de tela, seja de um computador, tablet ou smartphone.",
+      "Adaptam a qualquer tamanho de tela, seja de um computador ou celular.",
   },
   {
     icon: <RxDesktop />,
@@ -71,7 +71,7 @@ const ServiceSlider = () => {
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
 
               <div className="mb-8">
-                <div className="mb-2 text-lg">{item.title}</div>
+                <div className="mb-2 text-base xl:text-lg">{item.title}</div>
                 <p className="max-w-[350px] leading-normal">
                   {item.description}
                 </p>

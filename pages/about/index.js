@@ -109,7 +109,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="text-2xl xl:h2"
           >
             Um grande <span className="text-accent">negócio</span> merece um
             site surpreendente.
@@ -119,12 +119,12 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] mx-auto xl:mx-0 mt-3 xl:mt0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Somos uma empresa de criação de sites que oferece soluções
-            personalizadas e de qualidade para os nossos clientes. Temos uma
-            equipe de profissionais qualificados e experientes que trabalham com
-            as melhores ferramentas e tecnologias do mercado.
+            Somos uma empresa que oferece soluções personalizadas e de qualidade
+            para os nossos clientes. Temos uma equipe de profissionais
+            qualificados e experientes que trabalham com as melhores ferramentas
+            e tecnologias do mercado.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
