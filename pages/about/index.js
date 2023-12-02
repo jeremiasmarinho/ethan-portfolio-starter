@@ -99,7 +99,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex fixed bottom-0 -left-[430px] xl:mr-12"
+        className="hidden xl:flex fixed bottom-0 -left-[422px] xl:mr-12"
       >
         <Image
           src={"/avatar.png"}
