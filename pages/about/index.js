@@ -48,16 +48,16 @@ export const aboutData = [
     title: "Experiência",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "KonsTec",
+        stage: "2021 - 2022",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Ergon Sistemas",
+        stage: "2023",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Forest Carbon",
+        stage: "2023 - 2024",
       },
     ],
   },
@@ -65,16 +65,16 @@ export const aboutData = [
     title: "Formações",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Análise de Sistemas - Uninassau - PE ",
+        stage: "2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Formação em desenvolvimento de web - Alura",
+        stage: "2021",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Formação em Javascript - JavaScript Expert",
+        stage: "2022",
       },
     ],
   },
