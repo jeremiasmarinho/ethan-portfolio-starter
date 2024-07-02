@@ -1,3 +1,4 @@
+
 import { Sora } from "next/font/google";
 
 const sora = Sora({
@@ -9,6 +10,7 @@ const sora = Sora({
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import TopLeftImg from "../components/TopLeftImg";
+
 
 const Layout = ({ children }) => {
   return (
